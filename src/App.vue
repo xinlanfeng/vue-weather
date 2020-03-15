@@ -62,7 +62,7 @@ export default {
           this.location = res.basic.location
           this.temp = res.now.tmp
           this.weather = res.now.cond_txt
-          this.isShowWeather = !this.isShowWeather
+          this.isShowWeather = true
         })
     },
   },
